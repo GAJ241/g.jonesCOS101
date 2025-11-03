@@ -6,7 +6,6 @@ use std::io;
 fn main() {
     println!("\nQuadratic Equation Root Finder");
 
-    // Input coefficients a, b, and c
     let mut input1 = String::new();
     let mut input2 = String::new();
     let mut input3 = String::new();
@@ -41,3 +40,12 @@ fn main() {
         println!("The equation has no real roots.");
     }
 }
+
+
+
+
+
+
+
+
+
