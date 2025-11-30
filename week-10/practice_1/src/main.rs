@@ -1,0 +1,16 @@
+fn main(){
+
+    let v = vec![101,250,350,609];
+    //Vector v owns the object in heap 
+
+    //only a single variable owns the heap memory at any given time 
+    let v2 = v;
+    //here two variables owns a heap value 
+    //two pointers tp the same content is not allowed in rust 
+
+
+    //Rust is very smart in terms of memory access, so it detects a race condition
+    //as two variables point to same heap 
+
+    println!("{:?}",v);
+}
